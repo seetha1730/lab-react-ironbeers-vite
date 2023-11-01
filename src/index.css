@@ -8,14 +8,42 @@ a {
 }
 
 form {
-  max-width: 400px;
+ width:90%;
   margin: 20px auto;
 }
 
 .search-bar {
   margin-bottom: 50px;
 }
+input[type="text"],textarea,input[type="number"],textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #d2d2d2;
+  margin: 10px 0;
+}
 
+button{
+  color: white;
+  background: skyblue;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
 .btn-round {
   margin: 20px;
 }
+form label{font-weight:bold}
+ul{padding:0}
+.AllBeers{display:flex;flex-direction:row;align-items:center;min-height:250px;border:1px solid #ccc}
+.beerImg{width:30%;display:flex;align-items:center;justify-content: center;}
+.beercontent{width:70%}
+.BeerDetailContent h1 span{float:right;color:#d2d2d2}
+.BeerDetailContent h3 span{float:right;color:#000;font-size:1rem}
+.AllBeers img,.BeerDetailImg img{width:20%}
+.BeerDetailImg{    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;}
